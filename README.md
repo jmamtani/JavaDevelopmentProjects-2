@@ -1,4 +1,4 @@
-# JavaDevelopmentProjects-2
+# Software_2_Java_Projects
 
 ## Overview
 This repository contains several Java projects developed as part of a software course. Each project focuses on different aspects of Java programming, including data structures, algorithms, and parsing.
@@ -16,3 +16,7 @@ This repository contains several Java projects developed as part of a software c
 9. **TagCloudGenerator (Complete)**: Generate a tag cloud from a given text.
 10. **TagCloudGeneratorJavaComponents**: Create Java components for generating tag clouds.
 
+    
+## License
+
+Copying or using these projects as your own fully/partially is not permitted under any circumstances.
