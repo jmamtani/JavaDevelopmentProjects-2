@@ -1,0 +1,10 @@
+IF next-is-empty THEN
+  move
+ELSE
+  IF next-is-wall THEN
+    turnright
+    turnright
+    move
+  END IF
+END WHILE
+move

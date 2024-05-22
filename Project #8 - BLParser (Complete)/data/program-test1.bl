@@ -1,0 +1,21 @@
+PROGRAM programTest1 IS
+  INSTRUCTION instOne IS
+    IF next-is-not-empty THEN
+      turnleft
+      turnleft
+    ELSE
+      WHILE next-is-empty DO
+        move
+      END WHILE
+      IF next-is-enemy THEN
+        infect
+      END IF
+      skip
+    END IF
+  END instOne
+
+BEGIN
+  WHILE true DO
+    instOne
+  END WHILE
+END programTest1

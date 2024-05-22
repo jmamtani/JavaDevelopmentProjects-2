@@ -1,0 +1,18 @@
+PROGRAM programTest3 IS
+  INSTRUCTION move IS
+    WHILE true DO 
+      turnleft
+      IF next-is-enemy THEN 
+        TurnAround
+      ELSE
+        skip
+      END IF
+      turnleft
+    END WHILE
+  END move
+
+BEGIN
+  WHILE true DO
+    instOne
+  END WHILE
+END programTest3
